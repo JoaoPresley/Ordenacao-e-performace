@@ -1,4 +1,23 @@
-# Algoritmos de Ordenação: Performance e Comparação
+# 📊 Algoritmos de Ordenação: Performance e Comparação
+
+![Build Status](https://github.com/JoaoPresley/Ordenacao-e-performace/actions/workflows/c-cpp.yml/badge.svg)
+
+### 🛠️ Tecnologias e Ferramentas
+<p align="left">
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
+  <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
+  <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
+</p>
+
+### 📈 Estatísticas do Repositório
+<p align="left">
+  <img src="https://img.shields.io/github/repo-size/JoaoPresley/Ordenacao-e-performace?style=for-the-badge" />
+  <img src="https://img.shields.io/github/last-commit/JoaoPresley/Ordenacao-e-performace?style=for-the-badge" />
+  <img src="https://img.shields.io/github/license/JoaoPresley/Ordenacao-e-performace?style=for-the-badge" />
+</p>
+
+---
 
 Este projeto consiste em uma implementação em **C++** para comparar a eficiência de três dos algoritmos de ordenação mais conhecidos: **Heap Sort**, **Merge Sort** e **Quick Sort**. O programa utiliza a biblioteca `<chrono>` para medir o tempo de execução com precisão de milissegundos.
 
