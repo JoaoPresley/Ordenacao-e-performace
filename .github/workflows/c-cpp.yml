@@ -13,11 +13,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-    - name: configure
-      run: ./configure
-    - name: make
-      run: make
-    - name: make check
-      run: make check
-    - name: make distcheck
-      run: make distcheck
+
+    - name: Compilar Projeto
+      run: g++ -O3 main.cpp -o benchmark
+
+    - name: Rodar Teste Rápido
+      run: ./benchmark 10000
