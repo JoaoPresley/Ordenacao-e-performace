@@ -49,6 +49,8 @@ Com base nos testes realizados, foram observados os seguintes tempos de resposta
 | **Heap Sort** | 630.461 ms |
 | **Merge Sort** | 962.198 ms |
 
+![Grafico - Tempo de execução](grafico.png)
+
 > **Nota:** O Merge Sort apresentou o início da contagem de tempo (acima de 0ms) mais cedo que os demais (a partir de 1.000 posições), indicando um custo maior de alocação de memória na sua implementação recursiva com vetores.
 
 ---
